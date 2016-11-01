@@ -4,6 +4,7 @@
 
 /.classpath
 /.project
+/solr_demo.iml
 
 /target/
 /src/main/webapp/WEB-INF/classes/

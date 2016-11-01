@@ -46,7 +46,12 @@
 	</dependency>
 	
 	<!-- solr 依赖 -->
-	
+	<!-- solr java 客户端依赖 -->
+	<dependency>
+		<groupId>org.apache.solr</groupId>
+		<artifactId>solr-solrj</artifactId>
+		<version>5.4.1</version>
+	</dependency>
 	
 	<!-- xml 依赖 -->
 	<dependency>
@@ -490,12 +495,12 @@
   	<repository>
   		<id>nexus-releases</id>
   		<name>Nexus Releases</name>
-  		<url>http://localhost:8081/nexus/content/repositories/releases/</url>
+  		<url>http://192.168.20.31:8081/nexus/content/repositories/releases/</url>
   	</repository>
   	<snapshotRepository>
   		<id>nexus-snapshots</id>
   		<name>Nexus Snapshot</name>
-  		<url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
+  		<url>http://192.168.20.31:8081/nexus/content/repositories/snapshots/</url>
   	</snapshotRepository>
   </distributionManagement>
   
@@ -505,7 +510,7 @@
   	<repository>
   		<id>nexus</id>
   		<name>Nexus Repository</name>
-  		<url>http://localhost:8081/nexus/content/groups/public/</url>
+  		<url>http://192.168.20.31:8081/nexus/content/groups/public/</url>
   		<releases>
   			<enabled>true</enabled>
   		</releases>
@@ -519,7 +524,7 @@
   	<pluginRepository>
   		<id>nexus</id>
   		<name>Nexus Repository</name>
-  		<url>http://localhost:8081/nexus/content/groups/public/</url>
+  		<url>http://192.168.20.31:8081/nexus/content/groups/public/</url>
   		<releases>
   			<enabled>true</enabled>
   		</releases>
