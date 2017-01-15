@@ -13,7 +13,8 @@
   	<finalName>solr_demo</finalName>
   	<classpath>src/main/webapp/WEB-INF/classes</classpath>
   	<libOutputDirectory>src/main/webapp/WEB-INF/lib</libOutputDirectory>
-  	<org.apache.lucene.version>5.4.1</org.apache.lucene.version>
+  	<!-- <org.apache.solr.client.solrj>5.4.1</org.apache.solr.client.solrj> -->
+  	<org.apache.solr.client.solrj>5.5.0</org.apache.solr.client.solrj>
   	<org.springframework.version>4.1.6.RELEASE</org.springframework.version>
   	<org.slf4j.version>1.7.9</org.slf4j.version>
   	<com.fasterxml.jackson.version>2.7.0</com.fasterxml.jackson.version>
@@ -28,7 +29,7 @@
 	<dependency>
 		<groupId>org.apache.solr</groupId>
 		<artifactId>solr-solrj</artifactId>
-		<version>5.4.1</version>
+		<version>${org.apache.solr.client.solrj}</version>
 	</dependency>
   
   	<dependency>
